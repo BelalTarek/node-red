@@ -499,7 +499,16 @@
      "view-snap-grid": false,
      "view-show-grid": false
     }
+   },
+   "git": {
+    "user": {
+     "name": "belaltarek",
+     "email": "belaltarek@gmail.com"
+    }
    }
   }
+ },
+ "projects": {
+  "projects": {}
  }
 }
