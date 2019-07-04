@@ -17,7 +17,7 @@ jobs:
       deploy: &heroku
         provider: heroku
         app: node-red
-        # api_key: 8cb875fc-caa5-4ee5-b0cd-6753c177a03a
+        api_key: 8e9bca73-1674-4f19-ac87-dfcb03690c01
     - stage: test staging
       script: 'curl https://node-red-staging.herokuapp.com'
     # - stage: deploy to production
