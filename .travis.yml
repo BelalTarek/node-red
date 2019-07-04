@@ -2,7 +2,7 @@ language: node_js
 deploy: &heroku
         provider: heroku
         app: node-red-staging
-        # api_key: 8cb875fc-caa5-4ee5-b0cd-6753c177a03a
+        api_key: 8cb875fc-caa5-4ee5-b0cd-6753c177a03a
     - stage: test staging
       script: 'curl https://git.heroku.com/node-red-staging.git'
   # api_key: ...
