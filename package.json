@@ -3,6 +3,10 @@
     "description": "A Node-RED Project",
     "version": "0.0.1",
     "private": true,
+    "scripts": {
+      "start": "node-red --userDir .",
+      "dev": "nodemon node_modules/node-red/red.js --userDir .  --settings ./config/dev_settings.js"
+    },
     "dependencies": {
         "dotenv": "^8.0.0",
         "node-red": "^0.20.5",
