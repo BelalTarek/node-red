@@ -1,21 +1,46 @@
 {
-  "name": "node-red-project",
+  "name": "red-project",
   "description": "A Node-RED Project",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node-red --userDir .",
     "test": "mocha \"test/**/*_spec.js\"",
-    "dev": "nodemon node_modules/node-red/red.js --userDir .  --settings ./config/dev_settings.js"
+    "dev": "nodemon node_modules/node-red/red.js --userDir ."
+  },
+  "node-red": {
+    "nodes": {
+      "lower-case": "lower-case.js"
+    }
   },
   "dependencies": {
     "dotenv": "^8.0.0",
+    "lower-case-node": "file:../lower-case-node",
     "mocha": "^6.1.4",
-    "node-red": "^0.20.5",
+    "node-red": "^0.20.7",
     "node-red-contrib-function-npm": "^0.3.0",
     "node-red-contrib-mongodb": "~0.3.4",
     "node-red-node-mongodb": "0.0.14",
-    "node-red-node-test-helper": "^0.2.2",
+    "node-red-node-test-helper": "^0.2.3",
     "xlsx": "^0.14.3"
-  }
+  },
+  "main": "lower-case.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "node-red": "^0.20.7",
+    "node-red-node-test-helper": "^0.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BelalTarek/node-red.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BelalTarek/node-red/issues"
+  },
+  "homepage": "https://github.com/BelalTarek/node-red#readme"
 }
