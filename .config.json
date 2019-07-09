@@ -520,23 +520,6 @@
      "file": "/home/belal/Desktop/node-red/node_modules/node-red-node-mongodb/66-mongodb.js"
     }
    }
-  },
-  "lower-case-node": {
-   "name": "lower-case-node",
-   "version": "0.0.1",
-   "local": true,
-   "nodes": {
-    "lower-case": {
-     "name": "lower-case",
-     "types": [
-      "lower-case"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "lower-case-node",
-     "file": "/home/belal/Desktop/node-red/node_modules/lower-case-node/lower-case.js"
-    }
-   }
   }
  },
  "_credentialSecret": "12c7af6c090f8fdef86e3b51565b044b968565e63c8a4ec6e62455f63b1123c5",
