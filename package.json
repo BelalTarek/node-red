@@ -1,18 +1,21 @@
 {
-    "name": "node-red-project",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-      "start": "node-red --userDir .",
-      "dev": "nodemon node_modules/node-red/red.js --userDir .  --settings ./config/dev_settings.js"
-    },
-    "dependencies": {
-        "dotenv": "^8.0.0",
-        "node-red": "^0.20.5",
-        "node-red-contrib-function-npm": "^0.3.0",
-        "node-red-contrib-mongodb": "~0.3.4",
-        "node-red-node-mongodb": "0.0.14",
-        "xlsx": "^0.14.3"
-      }
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node-red --userDir .",
+    "test": "mocha \"test/**/*_spec.js\"",
+    "dev": "nodemon node_modules/node-red/red.js --userDir .  --settings ./config/dev_settings.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mocha": "^6.1.4",
+    "node-red": "^0.20.5",
+    "node-red-contrib-function-npm": "^0.3.0",
+    "node-red-contrib-mongodb": "~0.3.4",
+    "node-red-node-mongodb": "0.0.14",
+    "node-red-node-test-helper": "^0.2.2",
+    "xlsx": "^0.14.3"
+  }
 }
