@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "dotenv": "^8.0.0",
-    "lower-case-node": "file:../lower-case-node",
     "mocha": "^6.1.4",
     "node-red": "^0.20.7",
     "node-red-contrib-function-npm": "^0.3.0",
