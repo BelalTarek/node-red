@@ -17,7 +17,7 @@
 // The `https` setting requires the `fs` module. Uncomment the following
 // to make it available:
 //var fs = require("fs");
-
+require('dotenv').config()
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
     uiPort: process.env.PORT || 3002,
@@ -33,6 +33,8 @@ module.exports = {
 
     // Retry time in milliseconds for Serial port connections
     serialReconnectTime: 15000,
+
+    credentialSecret: "mohn",
 
     // Retry time in milliseconds for TCP socket connections
     //socketReconnectTime: 10000,
