@@ -16,7 +16,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "fawry-client": "0.0.5",
-    "node-red": "^0.20.7",
+    "node-red": "^0.20.8",
     "node-red-contrib-function-npm": "^0.3.0",
     "node-red-node-cf-cloudant": "~0.2.17",
     "node-red-node-mongodb": "0.0.14",
@@ -28,7 +28,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "node-red": "^0.20.7",
+    "node-red": "^0.20.8",
     "node-red-node-test-helper": "^0.2.3"
   },
   "repository": {
